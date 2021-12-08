@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login page</title>
+    <link rel="stylesheet" href="facebooklogin.css" />
+  </head>
+  <body>
+    <div class="cont">
+      <div class="logoCont">
+        <img src="../project/images/logo.svg" class="logo" alt="" />
+      </div>
+      <div class="recent">Recent Logins</div>
+      <div class="addAcc">Click to your picture or add an account</div>
+      <div class="card">
+        <img src="../project/images/NqXxvQhN4tE.png" class="card_img" alt="" />
+        <div class="card__addAcc">Add Account</div>
+      </div>
+    </div>
+
+    <div class="form">
+      <form action="facebook.html" method="">
+        <input
+          type="text"
+          name=""
+          placeholder="Email address or phone number"
+          id=""
+          class="input"
+        />
+        <input
+          type="password"
+          placeholder="password"
+          name=""
+          id=""
+          class="input"
+        />
+        <input type="submit" value="Log in" class="loginButton input" />
+        <a href="">Forgetten password?</a>
+        <br />
+        <br />
+        <hr class="line" />
+      </form>
+      <form action="" id="myForm">
+        <button class="create">Create new account</button>
+      </form>
+    </div>
+    <div style="clear: left"></div>
+    <div class="createPage">
+      <a href="" class="bold"> create page </a> for a celebrity, brand or
+      business
+    </div>
+    <div id="overlay"></div>
+    <div id="onPres" class="displayed">
+      <div class="close">
+        <img
+          src="../project/images/close-cross.svg"
+          onclick="myFunction()"
+          alt=""
+        />
+      </div>
+      <form action="./createNewAcc.html">
+        <h1 class="signin">Sign up</h1>
+        <label for="" class="signin" style="color: gray">
+          it's quick and easy</label
+        >
+        <hr />
+        <input class="secFormInput" type="text" placeholder="First name" />
+        <input class="secFormInput" type="text" placeholder="Surname" />
+        <input
+          type="text"
+          placeholder="Mobile number or email address"
+          class="input displayedInput"
+        />
+        <input
+          type="password"
+          placeholder="New Password"
+          class="input displayedInput"
+        />
+        <label for="dateBirth" class="labelStyle"> Date of birth</label>
+        <input
+          type="date"
+          name=""
+          id="dateBirth"
+          class="input displayedInput"
+        />
+        <label for="" class="labelStyle">Gender</label>
+        <br />
+        <span class="radioCheck">
+          <label for=""> Female</label>
+          <input type="radio" name="gender" id="" class="radioCheckInput" />
+        </span>
+        <span class="radioCheck">
+          <label for=""> Male</label>
+          <input type="radio" name="gender" id="" class="radioCheckInput" />
+        </span>
+        <span class="radioCheck">
+          <label for=""> Custom</label>
+          <input type="radio" name="gender" id="" class="radioCheckInput" />
+        </span>
+        <button class="create">Sign up</button>
+      </form>
+    </div>
+    <script src="./create.js"></script>
+  </body>
+</html>
